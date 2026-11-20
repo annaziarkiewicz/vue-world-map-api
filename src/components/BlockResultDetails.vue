@@ -218,7 +218,7 @@ onBeforeUnmount(() => {
         min-height: 12px;
         font-size: 12px;
         line-height: 1em;
-        color: $color-milk-500;
+        color: $color-sand-400;
         text-transform: uppercase;
 
         @media (max-width: 767px) {
@@ -265,7 +265,7 @@ onBeforeUnmount(() => {
         gap: 24px;
 
         &[tabindex='0']:focus-visible {
-            @include focus-ring($color-grey-400, 4px);
+            @include focus-ring($color-grey-300, 4px);
         }
 
         &::-webkit-scrollbar {
@@ -273,7 +273,7 @@ onBeforeUnmount(() => {
         }
 
         &::-webkit-scrollbar-track {
-            background: $color-grey-200;
+            background: $color-milk-400;
             border-radius: 4px;
         }
 

@@ -130,8 +130,8 @@ const moveDirections: { label: string, value: MapMoveDirection }[] = [
             font-size: 20px;
             font-weight: 300;
             line-height: 1em;
-            color: $color-milk-500;
-            text-shadow: 1px 1px $color-grey-200;
+            color: $color-sand-400;
+            text-shadow: 1px 1px $color-milk-400;
         }
     }
 
@@ -150,7 +150,7 @@ const moveDirections: { label: string, value: MapMoveDirection }[] = [
             display: flex;
             justify-content: center;
             align-items: center;
-            background: $color-milk-300;
+            background: $color-milk-600;
             border-radius: 12px;
             cursor: pointer;
             pointer-events: auto;
@@ -159,18 +159,18 @@ const moveDirections: { label: string, value: MapMoveDirection }[] = [
             color: $color-milk-200;
 
             &:focus-visible {
-                box-shadow: 0 0 0 4px $color-grey-400;
+                box-shadow: 0 0 0 4px $color-grey-300;
             }
 
             &:hover:not(:disabled) {
-                background: $color-mint-300;
+                background: $color-mint-200;
                 color: $color-milk-100;
             }
 
             &:disabled {
-                background: $color-grey-200;
+                background: $color-milk-400;
                 cursor: not-allowed;
-                color: $color-milk-400;
+                color: $color-sand-300;
             }
 
             &--up {
@@ -232,7 +232,7 @@ const moveDirections: { label: string, value: MapMoveDirection }[] = [
             display: flex;
             justify-content: center;
             align-items: center;
-            background: $color-milk-300;
+            background: $color-milk-600;
             border-radius: 12px;
             font-size: 20px;
             line-height: 1em;
@@ -242,20 +242,20 @@ const moveDirections: { label: string, value: MapMoveDirection }[] = [
                 cursor: pointer;
 
                 &:focus-visible {
-                    box-shadow: 0 0 0 4px $color-grey-400;
+                    box-shadow: 0 0 0 4px $color-grey-300;
                 }
 
                 &:hover {
-                    background: $color-mint-300;
+                    background: $color-mint-200;
                     color: $color-milk-100;
                 }
             }
 
             &--active {
                 background: $color-milk-200;
-                box-shadow: 0 0 0 .5px #B6B6AF;
+                box-shadow: 0 0 0 .5px $color-milk-500;
                 cursor: default;
-                color: $color-milk-500;
+                color: $color-sand-400;
             }
         }
     }

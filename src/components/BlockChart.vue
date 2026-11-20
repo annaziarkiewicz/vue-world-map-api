@@ -122,7 +122,7 @@ const chartDescription = computed(() => {
         margin-block-end: 12px;
         font-size: 12px;
         line-height: 1em;
-        color: $color-milk-500;
+        color: $color-sand-400;
         text-transform: uppercase;
     }
 
@@ -132,7 +132,7 @@ const chartDescription = computed(() => {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: $color-milk-300;
+        background: $color-milk-600;
     }
 
     &__svg {
@@ -143,13 +143,13 @@ const chartDescription = computed(() => {
     }
 
     &__grid-line {
-        stroke: $color-milk-400;
+        stroke: $color-sand-300;
         stroke-width: .5;
     }
 
     &__axis-label {
         font-size: 12px;
-        fill: $color-grey-300;
+        fill: $color-grey-200;
     }
 
     &__point {

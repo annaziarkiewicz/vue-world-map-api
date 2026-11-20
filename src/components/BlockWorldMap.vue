@@ -171,7 +171,7 @@ defineExpose({
 
     &__country {
         fill: $color-milk-200;
-        stroke: $color-milk-300;
+        stroke: $color-milk-600;
         stroke-width: 1;
         cursor: pointer;
         transition: fill .15s ease;
@@ -181,16 +181,16 @@ defineExpose({
         }
 
         &:focus-visible {
-            stroke: $color-grey-400;
+            stroke: $color-grey-300;
             stroke-width: 2;
         }
 
         &--highlighted {
-            fill: $color-rose-200;
+            fill: $color-rose-100;
         }
 
         &:hover {
-            fill: $color-mint-200;
+            fill: $color-mint-100;
         }
     }
 
@@ -199,8 +199,8 @@ defineExpose({
         overflow: hidden;
         max-width: calc(100vw - 8px);
         padding: 4px 8px;
-        background: $color-grey-400;
-        box-shadow: 0 4px 8px rgba($color-grey-400, .5);
+        background: $color-grey-300;
+        box-shadow: 0 4px 8px rgba($color-grey-300, .5);
         border-radius: 4px;
         pointer-events: none;
         font-size: 13px;

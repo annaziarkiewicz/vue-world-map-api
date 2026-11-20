@@ -79,7 +79,7 @@ const items = computed(() => {
     &__label {
         font-size: 12px;
         line-height: 1em;
-        color: $color-milk-500;
+        color: $color-sand-400;
         text-transform: uppercase;
     }
 

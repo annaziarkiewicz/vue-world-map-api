@@ -253,15 +253,15 @@ watch(
             height: 8px;
             display: block;
             flex-shrink: 0;
-            background: $color-rose-200;
+            background: $color-rose-100;
             border-radius: 50%;
         }
 
         &-label {
             margin-block-start: 4px;
             padding: 4px 8px;
-            background: $color-grey-400;
-            box-shadow: 0 4px 8px rgba($color-grey-400, .5);
+            background: $color-grey-300;
+            box-shadow: 0 4px 8px rgba($color-grey-300, .5);
             border-radius: 4px;
             font-size: 13px;
             color: $color-milk-200;

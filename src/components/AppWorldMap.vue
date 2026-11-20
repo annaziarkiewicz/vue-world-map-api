@@ -355,7 +355,7 @@ onBeforeUnmount(() => {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: #B6B6AF;
+    background: $color-milk-500;
 
     &:not(.az-app--inside-iframe) {
         margin-block-start: 24px;
